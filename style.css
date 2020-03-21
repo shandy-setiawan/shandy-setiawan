@@ -1,0 +1,304 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Ropa Sans", sans-serif;
+  background-color: #ffdd67;
+}
+
+.background-page {
+  background-color: #f3f3f3;
+  width: 80%;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: grey;
+}
+
+button:hover {
+  color: orange;
+}
+
+button {
+  transform: rotate(225deg);
+  margin-left: 6em;
+}
+
+/* --- Navbar Design --- */
+
+.navbar-box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5em;
+  top: 0;
+  z-index: 5;
+  position: fixed;
+}
+
+.navbar-box p {
+  transform: rotate(225deg);
+}
+
+.navbar-box-resume {
+  border: 1px solid black;
+  background-color: white;
+  width: 15em;
+  height: 16em;
+  transform: rotate(135deg);
+  margin-left: -3em;
+  margin-top: -0.3em;
+}
+
+.navbar-box-portfolio {
+  border: 1px solid black;
+  background-color: white;
+  width: 12em;
+  height: 13em;
+  transform: rotate(135deg);
+  margin-top: -4.4em;
+}
+
+.navbar-box-mymilestone {
+  border: 1px solid black;
+  background-color: white;
+  width: 12em;
+  height: 6em;
+  transform: rotate(135deg);
+  margin-top: 4.2em;
+  margin-left: -3.7em;
+}
+
+.navbar-box-contact {
+  border: 1px solid black;
+  background-color: white;
+  width: 12em;
+  height: 12em;
+  transform: rotate(135deg);
+  margin-left: -5.1em;
+  margin-top: -5.56em;
+}
+
+.navbar-box-mygallery {
+  border: 1px solid black;
+  background-color: white;
+  width: 12em;
+  height: 8em;
+  transform: rotate(135deg);
+  margin-top: 2.9em;
+  margin-left: -5.7em;
+}
+
+.navbar-box-blank {
+  border: 1px solid black;
+  background-color: white;
+  width: 12em;
+  height: 5em;
+  transform: rotate(135deg);
+  margin-top: -1.6em;
+  margin-left: -1em;
+}
+
+/* p {
+  transform: rotate(225deg);
+} */
+
+#satu {
+  margin-right: 2.5em;
+}
+
+#dua {
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+#tiga {
+  margin-left: 3em;
+}
+
+#empat {
+  margin-right: 3em;
+  margin-bottom: 1em;
+}
+
+#fullstack {
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* --- MY NAME DESIGN --- */
+
+#myname {
+  font-family: "Fredoka One", cursive;
+}
+
+.resume {
+  display: flex;
+  margin-top: 12em;
+}
+
+.resume-background1 {
+  width: 100%;
+  filter: opacity(50%);
+}
+
+.resume-background2 {
+  width: 100%;
+  filter: opacity(50%);
+}
+
+.layer1 {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.layer2 {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.resume-content {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 3em;
+  position: absolute;
+  margin-left: 14em;
+  margin-top: -1em;
+}
+
+/* --- PORTOFOLIO DESIGN --- */
+
+#portofolioku {
+  color: #ffcd38;
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  margin: 3em;
+}
+
+.portoline1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.portoline2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5em;
+}
+
+.porto1,
+.porto2,
+.porto3,
+.porto4,
+.porto5,
+.porto6,
+.porto7,
+.porto8 {
+  text-align: center;
+  border: 4px #ffcd38;
+  max-width: 12em;
+  max-height: 15;
+  padding: 1em 1em;
+  border-radius: 15px;
+  background-color: #4a4a4a;
+  box-shadow: 3px 8px #ffcd38;
+}
+
+.porto1task,
+.porto2task,
+.porto3task,
+.porto4task,
+.porto5task,
+.porto6task,
+.porto7task,
+.porto8task {
+  padding: 0.2em 0.2em;
+  background-color: tan;
+  margin-top: 0.5em;
+}
+
+/* --- MILESTONE DESIGN --- */
+
+.mymilestone {
+  text-align: center;
+  margin-top: 5em;
+  font-family: "Fredoka One", cursive;
+}
+
+#milestone {
+  color: #ffcd38;
+  text-align: center;
+  margin-right: 5em;
+}
+
+.milestone-menu {
+  display: flex;
+}
+
+.timeline {
+  max-width: 80%;
+  background-color: orange;
+}
+
+.milestone-left {
+  background-color: #ffdd67;
+}
+
+.milestone-right {
+  background-color: #ffdd67;
+}
+
+/* --- CONTACT DESIGN --- */
+
+.contact {
+  color: #ffcd38;
+  font-family: "Fredoka One", cursive;
+  background-color: grey;
+  justify-content: center;
+  max-width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  border-radius: 15px;
+}
+
+.me {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.logo-menu {
+  display: flex;
+  background-color: peru;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.logo a:hover {
+  background-color: white;
+}
+/* --- MY GALLERY --- */
+
+.mygallery {
+  clear: both;
+}
+
+.gallery {
+  border: 1px solid #fff;
+  justify-content: center;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.box {
+  border: 1px solid black;
+}
+
+.imageGallery {
+  height: 350px;
+}
